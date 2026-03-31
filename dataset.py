@@ -1,7 +1,9 @@
 import torch
 import os
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset,DataLoader
 import torchvision
+from torchvision import transforms
+
 
 class CatDogDataset(Dataset):
     
@@ -39,3 +41,5 @@ class CatDogDataset(Dataset):
             image = self.transform(image)
             
         return image, label
+    
+
