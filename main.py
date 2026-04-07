@@ -5,6 +5,7 @@ from torchvision import transforms
 
 # 우리가 만든 dataset.py 파일에서 CatDogDataset 클래스(직원)를 수입해온다!
 from dataset import CatDogDataset
+from model import CatDogModel
 
 
 def main():
