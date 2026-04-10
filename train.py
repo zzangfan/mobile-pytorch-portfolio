@@ -20,9 +20,9 @@ def main():
     
     train_dataloader = DataLoader(
         dataset = train_dataset,
-        batch_size = 32,
+        batch_size = 64,
         shuffle=True,
-        num_workers= 4,
+        num_workers=4,
         pin_memory=True
     )
     
