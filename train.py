@@ -36,7 +36,7 @@ def main():
                            lr =1e-3)
     
     print("Training AI starts")
-    epochs = 5
+    epochs = 10
     
     for epoch in range(epochs):
         model.train()
